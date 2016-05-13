@@ -52,7 +52,7 @@ We used pcap to sniff packets. We used raw sockets to create and send packets. W
 How to Run the program:
 	To display help options:
 		./portScanner --help
-	To parse out a pcap file called somefile.pcap:
+	To parse out a text file with a list of IP addresses:
 		./portScanner --ip (address)/ --file (filename) --ports (number or Range or combination) --scan (scan types) --speed (number of threads)
 ------------------------------------
 
